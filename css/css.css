@@ -1,0 +1,106 @@
+body {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+    background-image: url("../img/fondo.jpg");
+    background-attachment: fixed;
+    height: 100%;
+    background-size: 100% 100%;
+    padding: 20px;
+}
+
+.navMenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.navMenu a, #login{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.input-group{
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.fa, .fa-user-circle-o{
+    font-size: 100px;
+    color: #818181;
+    margin-left: 25%;
+    margin-bottom: 5px;
+}
+.navMenu a:hover {
+    color: #f1f1f1;
+}
+.img{
+    width: 100%;
+}
+
+.navMenu .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 5px;
+}
+
+
+#menu{
+    font-size:30px;
+    cursor:pointer;
+    margin-right: 10px;
+    color: white;
+}
+.row{
+    color: white;
+    margin-right: -40px;
+}
+.col-sm-10{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 80%;
+    margin-left: 20px;3
+    position: fixed;
+
+}
+
+.col-sm-2{
+    background-color: red;
+    position: fixed;
+    right: 20px;
+}
+.col-sm-12{
+    padding: 50px;
+}
+#noticiaContenedor{
+    border-collapse:separate;
+    border-spacing:2px;
+    border-color:#ddd;
+}
+.noticiaImg{
+    width:640px; 
+    height:256px;
+}
+
+@media screen and (max-width: 450px) {
+  .navMenu {padding-top: 15px;}
+  .navMenu a {font-size: 18px;}
+}
+
+
+
