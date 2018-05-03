@@ -15,6 +15,7 @@ $(document).ready(function(){
 
 	$("#titulo-noticia").click(function(){
 		$("#article-content").slideToggle("slow");
+		$("#imgNew01").slideToggle("hide");
 	});
 
 	$("#titulo-noticia2").click(function(){
@@ -24,7 +25,5 @@ $(document).ready(function(){
 	$("#titulo-noticia3").click(function(){
 		$("#article-content3").slideToggle("slow");
 	});
-
-
 })
 

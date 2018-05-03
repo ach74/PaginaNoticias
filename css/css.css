@@ -109,7 +109,7 @@ body {
     border-collapse:separate;
     border-spacing:2px;
     border-color:#ddd;
-    height: auto;
+    height: 50%;
 }
 .naticiaPanel{
     padding: 50px;
@@ -122,6 +122,7 @@ body {
     border: solid 1px #c3c3c3;
     border-radius: 5px;
     margin-bottom: 12px;
+
 }
 .noticiaImg{
     width:75%; 
@@ -153,6 +154,11 @@ hr{
     width: 95%;
 }
 
+#imgNew01{
+    height: 10%;
+    max-height: 200px;
+    max-width: 350px;
+}
 @media screen and (max-width: 450px) {
   .navMenu {padding-top: 15px;}
   .navMenu a {font-size: 18px;}
