@@ -14,84 +14,65 @@
 </head>
 <body>
 
-	<div id="nav" class="navMenu">
-		<a href="javascript:void(0)" class="close">&times;</a>
-		<div id="login">
-			<!--
-			<img src="img/avatar.png">
-			<p>Usuario</p>
-			<input type="text" name="Username">
-			<p>Contraseña</p>
-			<input type="password" name="password">-->
-			<i class="fa fa-user-circle-o"></i>
-			<div class="input-group">
-				<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-				<input id="email" type="text" class="form-control" name="email" placeholder="Email">
-			</div>
-			<div class="input-group">
-				<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-				<input id="password" type="password" class="form-control" name="password" placeholder="Password">
-			</div>
-		</div>
 
-		<a href="#">About</a>
-		<a href="#">Services</a>
-		<a href="#">Clients</a>
-		<a href="#">Contact</a>
+	<div class="left">
+		<div class="item active">
+			<span class="glyphicon glyphicon-home"></span>
+		Homa</div>
+		<div class="item">
+			<span class="glyphicon glyphicon-log-out"></span>
+		Login</div>
+		<div class="item">
+			<span class="glyphicon glyphicon-log-in"></span>
+		Pagina 2</div> 
+		<div class="item">
+			<span class="glyphicon glyphicon-random"> </span>
+		Pagina 3</div>
+		<div class="item">
+			<span class="glyphicon glyphicon-remove"></span>
+		Pagina 4</div>    
 	</div>
 
-	<div id="main">
+
+	<div class="right">
 		<nav class="navbar navbar-inverse">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<div id="menu">&#9776;</div>
+			<form class="navbar-form navbar-right" action="/action_page.php">
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="Search" name="search">
+					<div class="input-group-btn">
+						<button class="btn btn-default" type="submit">
+							<i class="glyphicon glyphicon-search"></i>
+						</button>
+					</div>
 				</div>
-
-
-				<!--
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#">Page 1</a></li>
-					<li><a href="#">Page 2</a></li>
-					<li><a href="#">Page 3</a></li>
-				</ul>-->
-			</div>
+			</form>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+				</li>
+			</ul>
 		</nav> 
-
-
-		<div class="row">
-			<div class="col-sm-10">
-
-				<div class="row">
-					<div class="col-sm-12">
-						<div id="noticiaContenedor">
-							<h3>'The Walking Dead': La primera imagen del rodaje de la novena temporada podría adelantar un salto en el tiempo</h3>
-							<p><b>Todo apunta a que veremos cómo han progresado en Hilltop ahora que la amenaza de los Salvadores ha terminado.</b></p>
-							<div id="article-content">
-								<p>
-								<img class="noticiaImg" src="http://es.web.img3.acsta.net/newsv7/18/05/01/20/09/5942428.jpg" itemprop="url" align="right">
-								¿Preparados para la novena temporada de The Walking Dead? Con una octava entrega recién terminada, los responsables de la ficción de AMC han decidido iniciar ya los preparativos de la siguiente aventura. Con la mente puesta en estrenar los nuevos episodios en otoño, <strong>Greg Nicotero y su equipo han iniciado este martes 1 de mayo el rodaje de los nuevos episodios.</strong> ¡Atent@ a la siguiente imagen!</p>
-								<blockquote class="twitter-tweet" data-lang="es">
-									<p dir="ltr" lang="en">Season 9, Day 1. <a class="xXx" href="https://twitter.com/hashtag/TWD?src=hash&amp;ref_src=twsrc%5Etfw">#TWD</a> 
-										<a class="xXx" href="https://twitter.com/hashtag/TWDFamily?src=hash&amp;ref_src=twsrc%5Etfw">#TWDFamily</a> 
-										<a class="xXx" href="https://t.co/c42lyqjrPv">pic.twitter.com/c42lyqjrPv</a></p>— The Walking Dead AMC (@WalkingDead_AMC) 
-										<a class="xXx" href="https://twitter.com/WalkingDead_AMC/status/991082312820457472?ref_src=twsrc%5Etfw">30 de abril de 2018</a>
-									</blockquote>
-									<p>Esta fotografía muestra una claqueta, la primera claqueta de la temporada, pero algunos fans muy atentos han analizado el fondo destacando que, aunque se trata de Hilltop, <strong>está en mejores condiciones respecto a la última vez que lo vimos.&nbsp;</strong></p>
-									<p><strong>Todo apunta a que esta novena temporada podría iniciarse con un salto en el tiempo</strong> que muestre cómo ha sido la vida de los protagonistas tras su victoria contra los Salvadores de Negan (Jeffrey Dean Morgan). Rick Grimes (Andrew Lincoln) tiene por delante la dura tarea de mantenerse como líder de un grupo dividido tras la guerra, ¿conseguirá volver a unir a todos los supervivientes?</p>
-								</div>
-							</div>
-						</div>
-					</div> 
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-9">
+					
 					<div class="row">
-						<div class="col-sm-6">.col-sm-4</div>
-						<div class="col-sm-6">.col-sm-4</div>
-					</div> 
+						<div class="col-md-12">
+								<div class="thumbnail clearfix">
+									<img src="img/foto1.jpg" class="img-rounded">
+										<h3>fff</h3>
+										<p>Breve descripción Breve descripción Breve descripción Breve descripción Breve descripciónBreve descripción Breve descripción Breve descripción Breve descripción Breve descripciónBreve descripción Breve descri</p>
+										<hr>
+										<p class="text-left">1/1/2017</p>
+								</div>
+						</div>
+					</div>
 				</div>
-				<div class="col-sm-2">Anuncio</div>
-			</div> 
-
+				<div class="col-sm-2"> <img src="img/add.jpg" id="publi"></div>
+			</div>
 		</div>
+	</div>
 
-	</body>
-	</html> 
+</div>
+
+</body>
+</html> 
