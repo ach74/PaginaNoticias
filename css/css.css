@@ -8,10 +8,9 @@ body{
 }
 
 .left {
-    margin-top: 150px;
     position: fixed;
     float:left;
-    height:auto;
+    height:100%;
     background: #111;
     display: inline-block;
     white-space: nowrap;
@@ -45,7 +44,6 @@ body{
     height: 100%;
     z-index: 0;
 }
-<<<<<<< HEAD
 
 .navbar-right{
 
@@ -55,7 +53,16 @@ body{
 .navbar{
     border-radius: 0;
 }
-
+.navbar-inverse {
+    background-color: #111;
+    border-color: #080808;
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: 20px;
+}
 
 #publi{
     height: 100%;
@@ -65,7 +72,6 @@ body{
     background-color: rgba(0, 0, 0, 0.3);
     width: 80%;
     margin-left: 20px;
-    position: relative;
     border-radius: 5px;
 }
 .cuerpoNoticias{
@@ -74,12 +80,12 @@ body{
 
 .col-sm-2{
     background-color: red;
-    position: fixed;
     right: 20px;
+    margin-left: 20px;
 }
 
 .col-sm-12{
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 50px;
+    padding-top: 100px;
 }
