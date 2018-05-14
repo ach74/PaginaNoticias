@@ -1,30 +1,51 @@
-
+var contadorRetweet = false;
+var contadorLikes = false;
+var moreNew = 1;
 $(document).ready(function(){
-	$("#menu").click(function(){
-		$("#nav").css("width","250px");
-		$("#main").css("marginLeft","250px");
-		$("body").css("backgroundColor","rgba(0,0,0,0.4)");
-		$("#menu").hide(500);
+	$('.carousel').carousel({
+		interval:5000
 	});
-	$(".close").click(function(){
-		$("#nav").css("width","0");
-		$("#main").css("marginLeft","0");
-		$("body").css("backgroundColor","rgb(250, 250, 250,1)");
-		$("#menu").show(500);
-	});
+	$(".glyphicon-heart").click(function(){
+		if (contadorLikes==false) {
+			$(this).css("-webkit-text-fill-color", " rgba(255, 100, 100,0.8)");
+			contadorLikes = true;
 
-	$("#titulo-noticia").click(function(){
-		$("#article-content").slideToggle("slow");
+		}else{
+			$(this).css("-webkit-text-fill-color", " #e3e3e300");
+			contadorLikes = false;
+		}
 	});
 
-	$("#titulo-noticia2").click(function(){
-		$("#article-content2").slideToggle("slow");
+	$(".glyphicon-retweet").click(function(){
+		if (contadorRetweet==false) {
+			$(this).css("-webkit-text-fill-color", " rgba(132, 255, 132, 0.6)");
+			window.open('https://twitter.com/', '_blank');
+			contadorRetweet = true;
+		}else{
+			$(this).css("-webkit-text-fill-color", " #e3e3e300");
+			contadorRetweet = false;
+		}
 	});
+});
+function giveMeMore() {
 
-	$("#titulo-noticia3").click(function(){
-		$("#article-content3").slideToggle("slow");
-	});
+	alert("The paragraph was clicked.");
+	if (moreNew < 6) {
+		$.getJSON("../data/" + moreNew + ".json", function (jsonObject) {
+			addrow(jsonObject);
+		}); moreNew++;
+	} else {
+		$('#mas').text('No hay más noticias');
+	}
+};
 
-
-})
-
+function addrow(json) {
+	$.each(json, function (i, item) {
+		$(".noticias").append('<div class="col-sm-6 col-md-6">' +
+			'<div class="thumbnail">' +
+			'<div class="caption">' + '<h3 class="text-justify">' + item.titulo + "</h3>" + "</div>" +
+			'<img src="' + item.imgmid + '" alt="..." />' +
+			'<div class="caption">' + '<p class="text-justify">' + item.descripcion + "</p>" +
+			'<p class="text-right">' + "<em>" + item.fecha + "</em>" + "</p>" + "</div>" + "</div>" + "</div>");
+	})
+};

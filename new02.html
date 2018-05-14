@@ -10,82 +10,100 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="js/js.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<link rel="stylesheet" type="text/css" href="css/noticias.css">
 </head>
 <body>
 
-	<div id="nav" class="navMenu">
-		<a href="javascript:void(0)" class="close">&times;</a>
-		<div id="login">
-			<!--
-			<img src="img/avatar.png">
-			<p>Usuario</p>
-			<input type="text" name="Username">
-			<p>Contraseña</p>
-			<input type="password" name="password">-->
-			<i class="fa fa-user-circle-o"></i>
-			<div class="input-group">
-				<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-				<input id="email" type="text" class="form-control" name="email" placeholder="Email">
-			</div>
-			<div class="input-group">
-				<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-				<input id="password" type="password" class="form-control" name="password" placeholder="Password">
-			</div>
-		</div>
 
-		<a href="index.html">Home</a>
-		<a href="https://www.imdb.com/?ref_=nv_home">Imdb</a>
-		<a href="#">Clients</a>
-		<a href="">Contact</a>
+	<div class="left">
+		<a href="#" class="navOpcion">
+			<div class="item icon">
+				<span class="glyphicon"></span>A7SERIES
+			</div>
+		</a>
+		<a href="index.html" class="navOpcion">
+			<div class="item icon active">
+				<span class="glyphicon glyphicon-home"></span>Home
+			</div>
+		</a>
+		<a href="#" class="navOpcion">
+			<div class="item icon">
+				<div class="glyphicon glyphicon-cloud"></div>Save
+			</div> 
+		</a>
+		<a href="#" class="navOpcion">
+			<div class="item icon">
+				<span class="glyphicon glyphicon-pencil"></span>Edit
+			</div>
+		</a>
+		<a href="#" class="navOpcion">
+			<div class="item icon">
+				<span class="glyphicon glyphicon-user"></span>Sign Up
+			</div>
+		</a>
+		<a href="#" class="navOpcion">
+			<div class="item icon">
+				<span class="glyphicon glyphicon-remove"></span>Exit
+			</div>     
+		</a>
 	</div>
 
-	<div id="main">
-		<nav class="navbar navbar-inverse">
+	<div class="right"> 
+		<div id="noticias">
 			<div class="container-fluid">
-				<div class="navbar-header">
-					<div id="menu">&#9776;</div>
-				</div>
-			</div>
-		</nav> 
+				<div class="row noticias">
+					<div class="col-sm-12 col-md-12">
 
-
-		<div class="row">
-			<div class="col-sm-10 cuerpoNoticias">
-				<div class="row">
-					<div class="col-sm-12">
-						<div id="noticiaContenedor">
-							<div class="fullNoticia">
-								<h3> <a href="new02.html">'Mr. Robot' </a>: ¿Qué pasará en la serie tras el sorprendente cierre de la tercera temporada?</h3>
-
-								<p><b>El creador de la ficción, Sam Esmail, ha adelantado algunos detalles sobre la cuarta tanda de episodios recién anunciada por USA Network.</b></p>
-
-								<p><b>Atención: Esta noticia contiene SPOILERS del final de la tercera temporada de Mr. Robot.</b><br><br>
-									Unas horas antes del final de su tercera temporada, USA Network anunció que <a href="https://www.imdb.com/title/tt4158110/">Mr. Robot</a>  tendrá una cuarta entrega. El mismo miércoles, los fans de la serie protagonizada por <b>Rami Malek </b>asistieron a un cierre de lo más inquietante, presidido por un resurgido Fernando Vera.
-
-									<div id='blogvision'>
-										<iframe src='http://www.sensacine.com/_video/iblogvision.aspx?cmedia=19555691' style='width:480px; height:275px'>
-										</iframe>
-									</div>
-									<br>
-									<br>
-									La tensión está en el aire, y la pregunta es clara: ¿Cómo influirá el regreso de la peor pesadilla de <b>Elliot</b>? Pues bien, de ello ha hablado el creador de la serie, Sam Esmail, en una entrevista con The Hollywood Reporter.
-								</p>
+						<div class="thumbnail">
+							<a href="new01.html">
+								<img src="img\foto2.jpg" class="img-rounded imgTitulo" alt="...">
+								<div class="caption">
+									<h3 class="text-justify">'Rick y Morty' renovada por 70 episodios nuevos</h3>
+								</div>
+							</a>
+							<div class="caption">
+								<p class="text-justify"><strong>De las dudas sobre su continuidad pasamos a la confirmación por parte de Adult Swim de nuevas historias, muchas nuevas historias.</strong></p>
+								
+								<h2>Trailer</h2>
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe src="https://www.youtube.com/embed/7ecYoSvGO60" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+								</div>
 								<br>
-								<blockquote data-lang="es">
-									<p dir="ltr" lang="es">"Vera tendrá una parte crítica en los próximos episodios, definitivamente. Por otro lado, Elliot volverá a las promesas que mantenía durante la primera temporada."</p>
-								</blockquote>
-								<p class="p1">Además, Esmail ha aclarado que la serie está cerca de tocar su final, ya que siempre se ha pensado como un arco de cinco temporadas, plan que se mantiene intacto. "Sinceramente", explica, "siempre he dicho que serían <strong>cuatro o cinco temporadas</strong>, porque pienso que estará entre esos dos números. Podría haber dos tandas con pocos episodios, o dos temporadas completas, de diez capítulos. Es algo que todavía no está decidido".</p>
-								<p class="p1">Sea como sea, si hay algo que tiene claro es que no van a alargar la historia más de la cuenta ni "a vender aire". "Es algo que<strong> nos tomamos muy en serio</strong>, tanto los guionistas como yo", sentencia.&nbsp;</p>
-								<p class="p1"><i>Mr. Robot</i> volverá a la cadena USA Network en la segunda mitad de 2018.&nbsp;</p>
+								<p><strong>¡</strong><a title="Rick y Morty (EE.UU.) (Animación,Comedia,Aventura,Ciencia ficción)" href="#">Rick y Morty</a><strong><i>&nbsp;</i>tendrá 70 nuevos episodios!&nbsp;</strong></p>
+
+								<p>Sí, has oído bien, tras meses de dudas sobre la renovación de la comedia de&nbsp;<a title="Dan Harmon (EE.UU.) (Guionista,Productor delegado,Actor)" href="#">Dan Harmon</a> y&nbsp;<a title="Justin Roiland (Indefinido) (Diseñador)" href="#">Justin Roiland</a> por parte de la cadena Adult Swim, ellos mismos han confirmado en dos publicaciones en Instagram y en Twitter, respectivamente, la decisión, y es una que seguro emociona a todos los fans.&nbsp;</p>
+
+								<blockquote class="article-quote"><p lang="en">More Rick and Morty coming. Looking forward to all the tweets asking where it is! <a href="#">#theydrawingit</a> <a class="xXx" href="https://t.co/KZild3B9rP">pic.twitter.com/KZild3B9rP</a></p>— Justin Roiland (@JustinRoiland) <a href="#">10 de mayo de 2018</a></blockquote>
+
+								<p>Hasta el momento se han emitido 3 temporadas de&nbsp;<i>Rick y Morty</i> cada una de las cuales estaba compuesta por 10 episodios, es decir, un total de 30 episodios. <strong>Esta renovación hace pensar que la serie estará en antenta durante otras 7 temporadas de 10 capítulos cada una, o bien de menos entregas pero con más episodios</strong> -aunque esta segunda idea no parece tan probable porque Harmon ha señalado en anteriores ocasiones que quiere más episodios por temporada pero a la hora de la verdad los tiempos siempre le fallan-.&nbsp;</p>
+								
+								<p>La serie comenzó en 2013 y desde entonces se han emitido tan solo 3 aventuras por lo complejo de realizar los guiones y las animaciones de cada uno de los episodios que las componen. Cabe señalar que, <strong>durante la 'premiere' de la tercera entrega, el propio Rick vaticinó que tardaría más de nueve temporadas en completar el arco argumental de encontrar la salsa Szechuan de McDonalds que tanto le gusta</strong>, por lo que quizá lo de las diez temporadas ya estuviera previsto desde hace mucho tiempo.&nbsp;</p>
+
+
+
+								<hr>
+								<div class="container-fluid">
+									<div class="media">
+										<div class="media-left">
+											<img src="img/img_avatar1.png" class="media-object" style="width:45px">
+										</div>
+										<div class="media-body">
+											<h4 class="media-heading">Rick Jam <br><small><i>Posted on February 10, 2016</i></small></h4>
+											<button type="button" class="btn btn-warning btn-sm">Animation</button>
+											<button type="button" class="btn btn-info btn-sm">Comedy</button>
+											<button type="button" class="btn btn-danger btn-sm">Adventure</button>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-2"><img src="img/advert.jpg" id="advertImg"></div>
-		</div> 
-
+		</div>
+		<div class="publi"> 
+			<img src="img/add.jpg" id="ImgPubli">
+		</div>
 	</div>
 
 </body>

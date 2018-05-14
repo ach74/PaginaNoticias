@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<contenido version="2.0">
+
+    <noticias>
+        <noticia>
+            <titulo>Titulo 1</titulo>
+            <descripcion>Descripcion</descripcion>
+            <img>
+                <img>../img/foto1.jpg</imgmid>
+            </img>
+            <pubDate>28/03/2017</pubDate>
+            <enlace>../news1.html</enlace>
+        </noticia>
+        <noticia>
+            <titulo>Titulo 2</titulo>
+            <descripcion>Descripcion</descripcion>
+            <img>
+                <img>../img/foto2.jpg</imgmid>
+            </img>
+            <pubDate>28/03/2017</pubDate>
+            <enlace>../news2.html</enlace>
+        </noticia>
+        <noticia>
+            <titulo>Titulo 3</titulo>
+            <descripcion>Descripcion</descripcion>
+            <img>
+                <img>../img/foto3.jpg</imgmid>
+            </img>
+            <pubDate>28/03/2017</pubDate>
+            <enlace>../news1.html</enlace>
+        </noticia>
+    </noticias>
+
+</contenido>
