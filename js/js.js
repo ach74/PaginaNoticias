@@ -32,7 +32,7 @@ function giveMeMore() {
 //alert("The paragraph was clicked." + moreNew);
 
 if (moreNew < 6) {
-	$.getJSON("https://rawgit.com/ach74/PaginaNoticias/master/json/" + moreNew + ".json", function (a) {
+	$.getJSON("https://cdn.rawgit.com/ach74/PaginaNoticias/03fbc01b/json/" + moreNew + ".json", function (a) {
 		addNew(a);
 	}); moreNew++;
 } else {
@@ -43,7 +43,8 @@ if (moreNew < 6) {
 function addNew(json) {
 	var demo = 4;
 	$.each(json, function (i, item) {
-		$(".noticias").append(
+		$(".containerNew").append(
+			'<div class="row noticias">' +
 			'<div class="col-sm-4 col-md-4">'+
 			'<div class="thumbnail">' +
 
@@ -66,13 +67,14 @@ function addNew(json) {
 									'<img src="img/img_avatar1.png" class="media-object" style="width:45px">'+
 								'</div>'+ 
 								'<div class="media-body">'+
-									'<h4 class="media-heading">'+ 'aaaa' + '<br><small><i>Posted on April 27, 2018</i></small></h4>'+
+									'<h4 class="media-heading">'+ item.autor + '<br><small><i>Posted on '+ item.fecha.month+' '+item.fecha.day+',' +item.fecha.year+'</i></small></h4>'+
 									'<button type="button" class="btn btn-warning btn-sm">Acción</button><button type="button" class="btn btn-danger btn-sm">Aventura</button>'+
 								'</div>'+ 
 							'</div>'+ 
 						'</div>'+ 
 					'</div>'+
 				'</div>'+
+			'</div>'+
 			'</div>'
 
 			/*
