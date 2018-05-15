@@ -31,7 +31,7 @@ function giveMeMore() {
 
 	alert("The paragraph was clicked.");
 	if (moreNew < 6) {
-		$.getJSON("../data/" + moreNew + ".json", function (jsonObject) {
+		$.getJSON("https://github.com/ach74/PaginaNoticias/tree/master/json/" + moreNew + ".json", function (jsonObject) {
 			addrow(jsonObject);
 		}); moreNew++;
 	} else {
