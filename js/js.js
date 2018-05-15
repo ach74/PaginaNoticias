@@ -29,7 +29,8 @@ $(document).ready(function(){
 });
 function giveMeMore() {
 
-	alert("The paragraph was clicked.");
+//alert("The paragraph was clicked." + moreNew);
+	
 	if (moreNew < 6) {
 		$.getJSON("https://github.com/ach74/PaginaNoticias/tree/master/json/" + moreNew + ".json", function (jsonObject) {
 			addrow(jsonObject);
@@ -41,7 +42,7 @@ function giveMeMore() {
 
 function addrow(json) {
 	$.each(json, function (i, item) {
-		$(".noticias").append('<div class="col-sm-6 col-md-6">' +
+		$(".noticias").append('<div class="col-sm-4 col-md-4">' +
 			'<div class="thumbnail">' +
 			'<div class="caption">' + '<h3 class="text-justify">' + item.titulo + "</h3>" + "</div>" +
 			'<img src="' + item.imgmid + '" alt="..." />' +
