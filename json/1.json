@@ -1,5 +1,6 @@
 [
   {
+    "autor": "ach74",
     "titulo": "Titulo 1",
     "descripcion": "Descripcion",
     "imgmid": "img/foto1.jpg",
@@ -8,10 +9,10 @@
       "day": "01",
       "month": "April",
       "year": "2017>"
-    },
-    "autor": "ach74"
+    }
   },
   {
+    "autor": "ach74",
     "titulo": "Titulo 2",
     "descripcion": "Descripcion",
     "imgmid": "img/foto1.jpg",
@@ -20,10 +21,10 @@
       "day": "01",
       "month": "April",
       "year": "2017>"
-    },
-    "autor": "ach74"
+    }
   },
   {
+    "autor": "ach74",
     "titulo": "Titulo 3",
     "descripcion": "Descripcion",
     "imgmid": "img/foto1.jpg",
@@ -32,7 +33,6 @@
       "day": "01",
       "month": "April",
       "year": "2017>"
-    },
-    "autor": "ach74"
+    }
   }
 ]

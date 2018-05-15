@@ -42,7 +42,7 @@ if (moreNew < 6) {
 
 function addNew(json) {
 	var demo = 4;
-	$.each(json, function (b, item) {
+	$.each(json, function (i, item) {
 		$(".noticias").append(
 			'<div class="col-sm-4 col-md-4">'+
 			'<div class="thumbnail">' +
@@ -66,7 +66,7 @@ function addNew(json) {
 									'<img src="img/img_avatar1.png" class="media-object" style="width:45px">'+
 								'</div>'+ 
 								'<div class="media-body">'+
-									'<h4 class="media-heading">Joe Russo <br><small><i>Posted on April 27, 2018</i></small></h4>'+
+									'<h4 class="media-heading">'+ 'aaaa' + '<br><small><i>Posted on April 27, 2018</i></small></h4>'+
 									'<button type="button" class="btn btn-warning btn-sm">Acción</button><button type="button" class="btn btn-danger btn-sm">Aventura</button>'+
 								'</div>'+ 
 							'</div>'+ 
