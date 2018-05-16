@@ -43,9 +43,9 @@ if (moreNew < 6) {
 function addNew(json) {
 	var demo = 4;
 	$.each(json, function (i, item) {
-		$(".containerNew").append(
-			'<div class="row noticias">' +
-			'<div class="col-sm-4 col-md-4">'+
+		$("#aaaaa").append(
+
+		'<div class="col-sm-4 col-md-4">'+
 			'<div class="thumbnail">' +
 
 					'<a href="#" class="navOpcion">' +
@@ -75,7 +75,7 @@ function addNew(json) {
 					'</div>'+
 				'</div>'+
 			'</div>'+
-			'</div>'
+		'</div>'
 
 			/*
 			'<div class="col-sm-4 col-md-4">' +
