@@ -58,6 +58,7 @@ a.navOpcion:link {
     background-color: #ffffffb3;
     box-shadow: 2px 2px 5px #999;
     min-height: 366px;
+    transition: all 0.2s ease;
 }
 
 .thumbnail:hover{
