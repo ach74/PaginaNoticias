@@ -42,8 +42,9 @@ if (moreNew < 6) {
 
 function addNew(json) {
 	var demo = 4;
+	$("#aaaaa").append('<div class="row"></div>');
 	$.each(json, function (i, item) {
-		$("#aaaaa").append(
+		$(".row:last").append(
 
 		'<div class="col-sm-4 col-md-4">'+
 			'<div class="thumbnail">' +
