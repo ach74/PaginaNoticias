@@ -1,5 +1,5 @@
 body{
-    height: 1600px;
+    height: auto;
     width: 100%;
     font-family: "Lato", sans-serif;
     transition: background-color .5s;
