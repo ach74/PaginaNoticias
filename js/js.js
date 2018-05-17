@@ -31,8 +31,8 @@ function giveMeMore() {
 
 //alert("The paragraph was clicked." + moreNew);
 
-if (moreNew < 6) {
-	$.getJSON("https://cdn.rawgit.com/ach74/PaginaNoticias/03fbc01b/json/" + moreNew + ".json", function (a) {
+if (moreNew < 4) {
+	$.getJSON("https://cdn.rawgit.com/ach74/PaginaNoticias/62ee09bc/json/" + moreNew + ".json", function (a) {
 		addNew(a);
 	}); moreNew++;
 } else {
@@ -51,15 +51,11 @@ function addNew(json) {
 
 					'<a href="#" class="navOpcion">' +
 						'<div class="caption">' + '<h3 class="text-justify">' + item.titulo + "</h3>" + "</div>" +
-						'<img src="' + item.img + '" alt="..." />' +
+						'<img src="' + item.img + 'class="img-rounded" " alt="..." />' +
 					'</a>' +
 
 				'<div class="caption">' + '<p class="text-justify">' + item.descripcion + "</p>" +
-					'<div class="container-fluid">' + 
 						'<button type="button" class="btn btn-default" data-toggle="collapse" data-target="#demo'+demo+'">Info</button>'+
-							'<div class="glyphicon glyphicon-heart"></div>'+
-							'<div class="glyphicon glyphicon-retweet"></div>'+
-					'</div>'+
 					'<div id="demo'+demo+'" class="collapse">'+ 
 		 				'<hr>'+
 						'<div class="container">'+
