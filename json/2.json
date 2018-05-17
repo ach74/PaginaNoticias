@@ -3,7 +3,8 @@
     "autor": "Elena Rodríguez",
     "titulo": "Estas son las series con más audiencia que han sido canceladas",
     "descripcion": "'Brooklyn Nine-Nine', 'Inhumans', 'Scandal'… Estas son las ficciones de las que han decidido prescindir sus cadenas.",
-    "img": "img/foto8.jpg",
+    "imgmid": "img/foto8.jpg",
+    "imgbig": "img/foto8.jpg",
     "fecha": {
       "day": "05",
       "month": "March",
@@ -14,7 +15,8 @@
     "autor": "Cristina Vega",
     "titulo": "¿Qué se sabe sobre la tercera temporada de Stranger Things?",
     "descripcion": "Pese a que no haya sido confirmada de manera oficial, es un hecho que a las aventuras de Eleven y su cuadrilla les..",
-    "img": "img/foto9.jpg",
+    "imgmid": "img/foto9.jpg",
+    "imgbig": "img/foto9.jpg",
     "fecha": {
       "day": "11",
       "month": "March",
@@ -25,7 +27,8 @@
     "autor": "Bernardo Álvarez-Villar ",
     "titulo": "Cómo hacer una serie de éxito sin tener ni un duro",
     "descripcion": "El crowfunding ha ayudado a sacar adelante proyectos que de otra forma jamás hubiesen conseguido financiación",
-    "img": "img/foto10.jpg",
+    "imgmid": "img/foto10.jpg",
+    "imgbig": "img/foto10.jpg",
     "fecha": {
       "day": "21",
       "month": "November",

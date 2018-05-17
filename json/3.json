@@ -3,7 +3,8 @@
     "autor": "Lucía M. Cabanelas",
     "titulo": "Netflix cancela el estreno de «Stranger things 2»",
     "descripcion": "Los padres de los jóvenes actores han anulado la visita de sus hijos a Cataluña al considerar que «la situación es peligrosa para ellos»",
-    "img": "img/foto11.jpg",
+    "imgmid": "img/foto11.jpg",
+    "imgbig": "img/foto11.jpg",
     "fecha": {
       "day": "05",
       "month": "March",
@@ -14,7 +15,8 @@
     "autor": "Oti Rodríguez Marchante",
     "titulo": "Han Solo: Un poquito más para atrás",
     "descripcion": "Lo primero de lo que se da cuenta el espectador al ver «Han Solo: Una historia de Star Wars» es de que Harrison Ford...",
-    "img": "img/foto12.jpg",
+    "imgmid": "img/foto12.jpg",
+    "imgbig": "img/foto12.jpg",
     "fecha": {
       "day": "11",
       "month": "June",
@@ -25,7 +27,8 @@
     "autor": "Lorena López",
     "titulo": "Qué sabemos (hasta el momento) de la tercera temporada de «La casa de papel»",
     "descripcion": "Las aventuras de El Profesor y su equipo continuarán en 2019 en la plataforma de streaming Netflix",
-    "img": "img/foto13.jpg",
+    "imgmid": "img/foto13.jpg",
+    "imgbig": "img/foto13.jpg",
     "fecha": {
       "day": "11",
       "month": "November",
