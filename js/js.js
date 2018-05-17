@@ -1,6 +1,7 @@
 var contadorRetweet = false;
 var contadorLikes = false;
 var moreNew = 1;
+var demo = 4;
 $(document).ready(function(){
 	$('.carousel').carousel({
 		interval:5000
@@ -32,7 +33,7 @@ function giveMeMore() {
 //alert("The paragraph was clicked." + moreNew);
 
 if (moreNew < 4) {
-	$.getJSON("https://cdn.rawgit.com/ach74/PaginaNoticias/62ee09bc/json/" + moreNew + ".json", function (a) {
+	$.getJSON("https://cdn.rawgit.com/ach74/PaginaNoticias/3597b3c4/json/" + moreNew + ".json", function (a) {
 		addNew(a);
 	}); moreNew++;
 } else {
@@ -41,7 +42,6 @@ if (moreNew < 4) {
 };
 
 function addNew(json) {
-	var demo = 4;
 	$("#aaaaa").append('<div class="row"></div>');
 	$.each(json, function (i, item) {
 		$(".row:last").append(
