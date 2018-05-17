@@ -65,6 +65,10 @@ a.navOpcion:link {
     transform: scale(1.01);
 }
 
+.cNoticia{
+    max-height: 200px;
+}
+
 .glyphicon-heart,.glyphicon-retweet{
     font-size: 35px;
     -webkit-text-fill-color: #e3e3e300;

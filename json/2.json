@@ -1,38 +1,35 @@
 [
   {
-    "autor": "ach74",
-    "titulo": "Titulo 1",
-    "descripcion": "Descripcion",
-    "imgmid": "img/foto1.jpg",
-    "imgbig": "img/foto1.jpg",
+    "autor": "Elena Rodríguez",
+    "titulo": "Estas son las series con más audiencia que han sido canceladas",
+    "descripcion": "'Brooklyn Nine-Nine', 'Inhumans', 'Scandal'… Estas son las ficciones de las que han decidido prescindir sus cadenas.",
+    "img": "img/foto8.jpg",
     "fecha": {
-      "day": "01",
-      "month": "April",
-      "year": "2017>"
+      "day": "05",
+      "month": "March",
+      "year": "2018"
     }
   },
   {
-    "autor": "ach74",
-    "titulo": "Titulo 2",
-    "descripcion": "Descripcion",
-    "imgmid": "img/foto1.jpg",
-    "imgbig": "img/foto1.jpg",
+    "autor": "Cristina Vega",
+    "titulo": "¿Qué se sabe sobre la tercera temporada de Stranger Things?",
+    "descripcion": "Pese a que no haya sido confirmada de manera oficial, es un hecho que a las aventuras de Eleven y su cuadrilla les..",
+    "img": "img/foto9.jpg",
     "fecha": {
-      "day": "01",
-      "month": "April",
-      "year": "2017>"
+      "day": "11",
+      "month": "March",
+      "year": "2018"
     }
   },
   {
-    "autor": "ach74",
-    "titulo": "Titulo 3",
-    "descripcion": "Descripcion",
-    "imgmid": "img/foto1.jpg",
-    "imgbig": "img/foto1.jpg",
+    "autor": "Bernardo Álvarez-Villar ",
+    "titulo": "Cómo hacer una serie de éxito sin tener ni un duro",
+    "descripcion": "El crowfunding ha ayudado a sacar adelante proyectos que de otra forma jamás hubiesen conseguido financiación",
+    "img": "img/foto10.jpg",
     "fecha": {
-      "day": "01",
-      "month": "April",
-      "year": "2017>"
+      "day": "21",
+      "month": "November",
+      "year": "2018"
     }
   }
 ]

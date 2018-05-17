@@ -1,38 +1,35 @@
 [
   {
-    "autor": "ach74",
-    "titulo": "Titulo 1",
-    "descripcion": "Descripcion",
-    "imgmid": "img/foto1.jpg",
-    "imgbig": "img/foto1.jpg",
+    "autor": "Lucía M. Cabanelas",
+    "titulo": "Netflix cancela el estreno de «Stranger things 2»",
+    "descripcion": "Los padres de los jóvenes actores han anulado la visita de sus hijos a Cataluña al considerar que «la situación es peligrosa para ellos»",
+    "img": "img/foto11.jpg",
     "fecha": {
-      "day": "01",
-      "month": "April",
-      "year": "2017>"
+      "day": "05",
+      "month": "March",
+      "year": "2017"
     }
   },
   {
-    "autor": "ach74",
-    "titulo": "Titulo 2",
-    "descripcion": "Descripcion",
-    "imgmid": "img/foto1.jpg",
-    "imgbig": "img/foto1.jpg",
+    "autor": "Oti Rodríguez Marchante",
+    "titulo": "Han Solo: Un poquito más para atrás",
+    "descripcion": "Lo primero de lo que se da cuenta el espectador al ver «Han Solo: Una historia de Star Wars» es de que Harrison Ford...",
+    "img": "img/foto12.jpg",
     "fecha": {
-      "day": "01",
-      "month": "April",
-      "year": "2017>"
+      "day": "11",
+      "month": "June",
+      "year": "2017"
     }
   },
   {
-    "autor": "ach74",
-    "titulo": "Titulo 3",
-    "descripcion": "Descripcion",
-    "imgmid": "img/foto1.jpg",
-    "imgbig": "img/foto1.jpg",
+    "autor": "Lorena López",
+    "titulo": "Qué sabemos (hasta el momento) de la tercera temporada de «La casa de papel»",
+    "descripcion": "Las aventuras de El Profesor y su equipo continuarán en 2019 en la plataforma de streaming Netflix",
+    "img": "img/foto13.jpg",
     "fecha": {
-      "day": "01",
-      "month": "April",
-      "year": "2017>"
+      "day": "11",
+      "month": "November",
+      "year": "2018"
     }
   }
 ]
