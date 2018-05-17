@@ -50,7 +50,7 @@ function addNew(json) {
 
 					'<a href="#" class="navOpcion">' +
 						'<div class="caption">' + '<h3 class="text-justify">' + item.titulo + "</h3>" + "</div>" +
-						'<img src="' + item.imgmid + '" alt="..." />' +
+						'<img src="' + item.img + '" alt="..." />' +
 					'</a>' +
 
 				'<div class="caption">' + '<p class="text-justify">' + item.descripcion + "</p>" +

@@ -1,38 +1,35 @@
 [
   {
     "autor": "ach74",
-    "titulo": "Titulo 1",
-    "descripcion": "Descripcion",
-    "imgmid": "img/foto1.jpg",
-    "imgbig": "img/foto1.jpg",
+    "titulo": "'Daredevil': El traje negro regresa en las nuevas imágenes de la tercera temporada",
+    "descripcion": "Matt Murdock vuelve a enfundarse su antiguo traje de héroe de la Cocina del Infierno en los nuevos episodios.",
+    "img": "img/foto5.jpg",
     "fecha": {
-      "day": "01",
-      "month": "April",
-      "year": "2017>"
+      "day": "05",
+      "month": "March",
+      "year": "2018"
     }
   },
   {
-    "autor": "ach74",
-    "titulo": "Titulo 2",
-    "descripcion": "Descripcion",
-    "imgmid": "img/foto1.jpg",
-    "imgbig": "img/foto1.jpg",
+    "autor": "Cristina Vega",
+    "titulo": "'Agents of S.H.I.E.L.D.' renueva por una sexta temporada",
+    "descripcion": "ABC ha dado luz verde a 13 nuevos episodios, que presumiblemente pondrán punto y final a la historia.",
+    "img": "img/foto6.jpg",
     "fecha": {
       "day": "01",
-      "month": "April",
-      "year": "2017>"
+      "month": "January",
+      "year": "2018"
     }
   },
   {
-    "autor": "ach74",
-    "titulo": "Titulo 3",
-    "descripcion": "Descripcion",
-    "imgmid": "img/foto1.jpg",
-    "imgbig": "img/foto1.jpg",
+    "autor": "Cristina Vega",
+    "titulo": "'Deadly Class': Primer vistazo a la nueva serie de los hermanos Russo",
+    "descripcion": "Anthony y Joe Russo han creado una historia de ciencia ficción que se estrenará en 2019.",
+    "img": "img/foto7.jpg",
     "fecha": {
       "day": "01",
-      "month": "April",
-      "year": "2017>"
+      "month": "August",
+      "year": "2018"
     }
   }
 ]
