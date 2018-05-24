@@ -10,7 +10,7 @@ $(document).ready(function(){
 
 
 	$(window).scroll(function () {
-		if ($(window).height() + $(window).scrollTop() >= $(document).height()) {
+		if ($(window).height() + $(window).scrollTop() == $(document).height()) {
 			giveMeMore();
 		}
 	});
@@ -22,11 +22,17 @@ function giveMeMore() {
 //alert("The paragraph was clicked." + moreNew);
 
 if (moreNew < 4) {
+	
+
 	$.getJSON("https://cdn.rawgit.com/ach74/PaginaNoticias/3597b3c4/json/" + moreNew + ".json", function (a) {
+		$("#cargar").fadeIn(1000);
 		addNew(a);
+		$("#cargar").fadeOut(1000);
 	}); moreNew++;
+
 } else {
-	$('#mas').text('No hay más noticias');
+	$('#mas').css("display","none");
+	$(".alert-danger").css("display","block");
 }
 };
 
