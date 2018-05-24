@@ -1,5 +1,4 @@
-var contadorRetweet = false;
-var contadorLikes = false;
+
 var moreNew = 1;
 var demo = 4;
 $(document).ready(function(){
@@ -7,34 +6,29 @@ $(document).ready(function(){
 		interval:5000
 	});
 
-
-
 	$(window).scroll(function () {
 		if ($(window).height() + $(window).scrollTop() == $(document).height()) {
 			giveMeMore();
 		}
 	});
+
+	$("#mas").click(function(){
+		if (moreNew < 4) {
+			$.getJSON("https://cdn.rawgit.com/ach74/PaginaNoticias/7ffa8360/json/" + moreNew + ".json", function (a) {
+				$("#cargar").fadeIn(500);
+				addNew(a);
+				$("#cargar").fadeOut(500);
+			}); moreNew++;
+
+		} else {
+			$('#mas').css("display","none");
+			$(".alert-danger").css("display","block");
+		}
+	});
+
+
 });
 
-
-function giveMeMore() {
-
-//alert("The paragraph was clicked." + moreNew);
-
-if (moreNew < 4) {
-	
-
-	$.getJSON("https://cdn.rawgit.com/ach74/PaginaNoticias/3597b3c4/json/" + moreNew + ".json", function (a) {
-		$("#cargar").fadeIn(1000);
-		addNew(a);
-		$("#cargar").fadeOut(1000);
-	}); moreNew++;
-
-} else {
-	$('#mas').css("display","none");
-	$(".alert-danger").css("display","block");
-}
-};
 
 function addNew(json) {
 	$("#aaaaa").append('<div class="row"></div>');
@@ -42,11 +36,11 @@ function addNew(json) {
 		$(".row:last").append(
 
 			'<div class="col-sm-4 col-md-4">'+
-			'<div class="thumbnail">' +
+			'<div class="thumbnail" id="cont'+demo+'" style="display:none;">' +
 
 			'<a href="#" class="navOpcion">' +
 			'<div class="caption">' + '<h3 class="text-justify">' + item.titulo + "</h3>" + "</div>" +
-			'<img src="' + item.img + '" class="img-rounded" alt="..." />' +
+			'<img src="' + item.imgmid + '" class="img-rounded" alt="..." />' +
 			'</a>' +
 
 			'<div class="caption">' + '<p class="text-justify">' + item.descripcion + "</p>" +
@@ -68,6 +62,22 @@ function addNew(json) {
 			'</div>'+
 			'</div>'+
 			'</div>');
+
+
+			$("#cont4").delay("125").fadeIn();
+			$("#cont5").delay("250").fadeIn();
+			$("#cont6").delay("500").fadeIn();
+
+			$("#cont7").delay("125").fadeIn();
+			$("#cont8").delay("250").fadeIn();
+			$("#cont9").delay("500").fadeIn();
+
+			$("#cont10").delay("125").fadeIn();
+			$("#cont11").delay("250").fadeIn();
+			$("#cont12").delay("500").fadeIn();
+
 		demo++;
-	})
+
+		
+	});
 };

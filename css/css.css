@@ -83,13 +83,14 @@ a.navOpcion:link {
 } 
 
 .mult {
-   text-align: right;
+ text-align: right;
 }
 
 #loadig{
     max-height: 500px;
     max-width: 500px;
-    margin-top: 300px;
+    margin-top: 10%;
+
 }
 #cargar{
     background-color: #fff6;
@@ -144,15 +145,15 @@ a.navOpcion:link {
 
 @media screen and (max-width: 950px) {
     .publi{
-     display: block;
-     position: relative;
-     width: 100%;
-     height: 95px;
-     border: none;
-     padding-left: 45px;
- }
+       display: block;
+       position: relative;
+       width: 100%;
+       height: 95px;
+       border: none;
+       padding-left: 45px;
+   }
 
- #ImgPubli{
+   #ImgPubli{
     width: 200px;
     margin-left: 30%;
     display: block;
