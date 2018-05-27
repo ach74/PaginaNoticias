@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-
-
 	<!--Implementar favicon -->
 	<title>Test</title>
 	<meta charset="utf-8">
-	<meta name=”description” content="El magazine motero de actualidad, análisis, reportajes y opinión sobre el mundo de las motos" />
+	<meta name=”description” content="La información más completa de Series en A7SERIES. Descubre las últimas noticias, fotografías y vídeos sobre Series ¡Te contamos las últimas novedades!" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -15,6 +12,12 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="js/js.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/css.css">
+
+	<meta property="og:site_name" content="Nom de la teva aplicació">
+	<meta property="og:url" content="Url de la pàgina que comparteixes">
+	<meta property="og:title" content="Títol, pot ser el mateix títol de la pàgina">
+	<meta property="og:image" content="Url de la imatge que es presentarà quan comparteixes">
+	<meta property="og:description" content="Descripció, pot ser la mateixa que hi ha a meta description">
 
 
 	<script src="https://snapwidget.com/js/snapwidget.js"></script>
@@ -56,14 +59,19 @@
 	</div>
 
 	<div class="right"> 
+
+		<!-- Login -->
 		<div class="col-xs-12" id="cargar">
 			<img src="img/loagind.gif" class="center-block" id="loadig">
 		</div>
+
+		<!-- Carousel -->
 		<div id="Carousel" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner" role="listbox">
 				<div class="item cFoto active">
-					<img src="img/cFoto1.jpg" alt="Primera" />
+					<img src="img/cFoto1.jpg" alt="Primera"/>
 				</div>
+
 
 				<div class="item cFoto">
 					<img src="img/cFoto2.jpg" alt="Segunda" />
@@ -75,11 +83,20 @@
 			</div>
 		</div>
 
+		<!-- Publicidad y Instagram -->
 		<div class="publi"> 
-			<img src="img/add.jpg" id="ImgPubli">
+
+			<!-- Publicidad para escritorios -->
+			<img src="img/publi.gif" id="ImgPubli">
+
+			<!-- Publicidad para moviles -->
+			<div id="ImgPubliMovil" class="center-block"></div>
+
+			<!-- Instagram -->
 			<div id="instagram" class="thumbnail thumbnail-instagram">
-				<div><a class="a-multimedia" href="#"><h3 class="text-right"><i class="fa fa-instagram" aria-hidden="true"></i>  @series.a7</h3></a>
-					<p class="text-justify">Instagram oficial de A7SERIES. Las fotos de las mejores series y las historias detrás de las cámaras de nuestro canal. 📷 FOTOS AQUÍ ⬇️⬇️⬇️</p></div>
+				<div class="container-fluid"><a class="a-multimedia" href="#"><h3><i class="fa fa-instagram" aria-hidden="true"></i>  @series.a7</h3></a>
+					<p class="text-justify">Instagram oficial de A7SERIES. Las fotos de las mejores series y las historias detrás de las cámaras de nuestro canal. 📷 FOTOS AQUÍ ⬇️⬇️⬇️</p>
+				</div>
 				<iframe src="https://snapwidget.com/embed/549773" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
 			</div>
 		</div>
@@ -98,7 +115,8 @@
 
 							</a>
 							<div class="caption">
-								<p class="text-justify">El creador de la ficción, Sam Esmail, ha adelantado algunos detalles sobre la cuarta tanda de episodios recién anunciada por USA Network.</p>
+								<p class="text-justify">El creador de la ficción, Sam Esmail, ha adelantado algunos detalles sobre la cuarta tanda de episodios recién anunciada por USA Network. <br>
+								Unas horas antes del final de su tercera temporada, USA Network anunció que Mr. Robot tendrá una cuarta entrega. El mismo miércoles, los fans de la serie protagonizada por Rami Malek asistieron a un cierre de lo más inquietante, presidido por un resurgido Fernando Vera.</p>
 								<button type="button" class="btn btn-default" data-toggle="collapse" data-target="#demo">Info</button>
 
 								<div id="demo" class="collapse">
@@ -132,7 +150,8 @@
 								<img src="img\foto2.jpg" class="img-rounded" alt="...">
 							</a>
 							<div class="caption">
-								<p class="text-justify">De las dudas sobre su continuidad pasamos a la confirmación por parte de Adult Swim de nuevas historias, muchas nuevas historias.</p>
+								<p class="text-justify">De las dudas sobre su continuidad pasamos a la confirmación por parte de Adult Swim de nuevas historias, muchas nuevas historias. <br>
+								</p>
 								<button type="button" class="btn btn-default" data-toggle="collapse" data-target="#demo1">Info</button>
 								<div id="demo1" class="collapse">
 									<hr>
@@ -224,11 +243,12 @@
 				<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
 				<strong>No hay mas noticias.</strong>
 			</div>
+
+
 		</div>
-
-
-
 	</div>
+
+
 
 </div>
 
