@@ -29,7 +29,7 @@ function cargarNoticias(){
 	if (contadorNoticias < 4) {
 
 		//Coger Json del Servidos
-		$.getJSON("https://cdn.rawgit.com/ach74/PaginaNoticias/5aab181a/json/" + contadorNoticias + ".json", function (a) {
+		$.getJSON("https://cdn.rawgit.com/ach74/PaginaNoticias/827cf1c9/json/" + contadorNoticias + ".json", function (a) {
 			//Logo cargando
 			$("#cargar").fadeIn(500);
 
