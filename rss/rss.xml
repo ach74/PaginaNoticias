@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+    <noticias>
+        <noticia>
+            <titulo>'Mr. Robot': ¿Qué pasará en la serie tras el sorprendente cierre de la tercera temporada?</titulo>
+            <descripcion>El creador de la ficción, Sam Esmail, ha adelantado algunos detalles sobre la cuarta tanda de episodios recién anunciada por USA Network. <br>
+                Unas horas antes del final de su tercera temporada, USA Network anunció que Mr. Robot tendrá una cuarta entrega. El mismo miércoles, los fans de la serie protagonizada por Rami Malek asistieron a un cierre de lo más inquietante, presidido por un resurgido Fernando Vera.
+            </descripcion>
+            <img>
+                <imgmid>../img/foto1.jpg</imgmid>
+                <imgbig>../img/imgGrandes/foto1.jpg</imgbig>
+            </img>
+            <pubDate>February 19, 2016</pubDate>
+            <enlace>../new01.html</enlace>
+        </noticia>
+        <noticia>
+            <titulo>'Rick y Morty' 70 episodios nuevos</titulo>
+            <descripcion>De las dudas sobre su continuidad pasamos a la confirmación por parte de Adult Swim de nuevas historias, muchas nuevas historias. 
+            </descripcion>
+            <img>
+                <imgmid>../img/foto2.jpg</imgmid>
+                <imgbig>../img/imgGrandes/foto2.jpg</imgbig>
+            </img>
+            <pubDate>February 10, 2016</pubDate>
+            <enlace>../new02.html</enlace>
+        </noticia>
+        <noticia>
+            <titulo>Vengadores: Infinity War</titulo>
+            <descripcion>Un nuevo peligro acecha procedente de las sombras del cosmos. Thanos, el infame tirano intergaláctico, tiene como objetivo reunir las...
+            </descripcion>
+            <img>
+                <imgmid>../img/foto3.jpg</imgmid>
+                <imgbig>../img/imgGrandes/foto3.jpg</imgbig>
+            </img>
+            <pubDate>April 27, 2018</pubDate>
+            <enlace>../new03.html</enlace>
+        </noticia>
+        <noticia>
+            <titulo>Los actores de GoT, ya están en Sevilla</titulo>
+            <descripcion>Maisie Williams o Peter Dinklage son algunos de los protagonistas que ya se encuentran en la capital andaluza.
+            </descripcion>
+            <img>
+                <imgmid>../img/foto4.jpg</imgmid>
+                <imgbig>../img/imgGrandes/foto4.jpg</imgbig>
+            </img>
+            <pubDate>April 10, 2018</pubDate>
+            <enlace></enlace>
+        </noticia>
+    </noticias>
+</rss>
