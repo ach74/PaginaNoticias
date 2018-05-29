@@ -84,7 +84,7 @@ a {
 }
 
 .mult {
- text-align: right;
+   text-align: right;
 }
 
 #loadig{
@@ -136,6 +136,8 @@ a {
     overflow:hidden; 
     width:100%;
     background:transparent;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 .fa-instagram{
     vertical-align: middle;
@@ -167,15 +169,15 @@ a {
 
 @media screen and (max-width: 950px) {
     .publi{
-       display: block;
-       position: relative;
-       width: 100%;
-       height: 95px;
-       border: none;
-       left: 15px;
-       margin-bottom: 8px;
-   }
-   #instagram{
+     display: block;
+     position: relative;
+     width: 100%;
+     height: 95px;
+     border: none;
+     left: 15px;
+     margin-bottom: 8px;
+ }
+ #instagram{
     display: none;
 }
 #ImgPubliMovil{
