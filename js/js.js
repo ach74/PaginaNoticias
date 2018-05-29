@@ -34,7 +34,7 @@ function cargarNoticias(){
 			$("#cargar").fadeIn(500);
 
 			//Añadir nuevo contenido
-			$("#aaaaa").append('<div class="row"></div>');
+			$("#contenedorNoticias").append('<div class="row"></div>');
 			//Añadir columnas
 			$.each(a, function (i, item) {
 				$(".row:last").append(
