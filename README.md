@@ -21,7 +21,6 @@ Lo primero que hice a la hora de hacer el proyecto fue la barra lateral, ya que 
 
 En html pertenece a esta seccion de codigo:
 
-:::html
 <div class="left">
 		<a href="#" class="navOpcion">
 			<div class="item icon">
