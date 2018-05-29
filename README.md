@@ -20,6 +20,7 @@ Lo primero que hice a la hora de hacer el proyecto fue la barra lateral, ya que 
 ![Menu lateral](https://github.com/ach74/PaginaNoticias/blob/master/img/dise%C3%B1o/cap01.png "Menu lateral")
 
 En html pertenece a esta seccion de codigo:
+
 ´´´rudy
 <div class="left">
 		<a href="#" class="navOpcion">
