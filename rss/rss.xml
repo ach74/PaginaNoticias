@@ -2,9 +2,8 @@
 <rss version="2.0">
         <noticia>
             <titulo>'Mr. Robot': ¿Qué pasará en la serie tras el sorprendente cierre de la tercera temporada?</titulo>
-        <descripcion>Durante el parte 7.2 podremos realizar la segunda y última parte del proceso para poder volar
-                                    en Legion donde deberemos conseguir el logro Abrecaminos de Legion Abrecaminos de las
-Islas Abruptas, segunda parte.</descripcion>
+            <descripcion>El creador de la ficción, Sam Esmail, ha adelantado algunos detalles sobre la cuarta tanda de episodios recién anunciada por USA Network.
+                Unas horas antes del final de su tercera temporada, USA Network anunció que Mr. Robot tendrá una cuarta entrega. El mismo miércoles, los fans de la serie protagonizada por Rami Malek asistieron a un cierre de lo más inquietante, presidido por un resurgido Fernando Vera.</descripcion>
             <img>
                 <imgmid>../img/foto1.jpg</imgmid>
                 <imgbig>../img/imgGrandes/foto1.jpg</imgbig>
@@ -42,4 +41,3 @@ Islas Abruptas, segunda parte.</descripcion>
             <pubDate>April 10, 2018</pubDate>
             <enlace></enlace>
         </noticia>
-</rss>
