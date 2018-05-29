@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
+	<noticias>
         <noticia>
             <titulo>'Mr. Robot': ¿Qué pasará en la serie tras el sorprendente cierre de la tercera temporada?</titulo>
             <descripcion>El creador de la ficción, Sam Esmail, ha adelantado algunos detalles sobre la cuarta tanda de episodios recién anunciada por USA Network.
@@ -41,3 +42,5 @@
             <pubDate>April 10, 2018</pubDate>
             <enlace></enlace>
         </noticia>
+    </noticias>
+</rss>
