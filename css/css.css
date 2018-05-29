@@ -135,6 +135,7 @@ a {
     border:none; 
     overflow:hidden; 
     width:100%;
+    background:transparent;
 }
 .fa-instagram{
     vertical-align: middle;
