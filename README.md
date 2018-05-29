@@ -8,7 +8,7 @@ En este proyacto he tenido que realizar una pagina web en la cual tengamos una n
 
 Para empezar he hecho el diseño de la pagina web.
 
-![Imagen 1][1]  ![Imagen 2][2]
+![Diseño pagina web](https://github.com/ach74/PaginaNoticias/blob/master/img/dise%C3%B1o/dise%C3%B1oPc.jpg "Diseño 01")
 
- [1]: https://github.com/ach74/PaginaNoticias/blob/master/img/dise%C3%B1o/dise%C3%B1oPc.jpg
- [2]: https://github.com/ach74/PaginaNoticias/blob/master/img/dise%C3%B1o/dise%C3%B1oPc2.jpg
+
+![Diseño pagina web menu abierto](https://github.com/ach74/PaginaNoticias/blob/master/img/dise%C3%B1o/dise%C3%B1oPc2.jpg "Diseño 02")
