@@ -160,3 +160,5 @@ Código:
 	}, 2000);
 
 ```
+
+* Al cargar una nueva noticia nos sale un gif de login.
