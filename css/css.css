@@ -84,7 +84,7 @@ a {
 }
 
 .mult {
-   text-align: right;
+ text-align: right;
 }
 
 #loadig{
@@ -169,15 +169,13 @@ a {
 
 @media screen and (max-width: 950px) {
     .publi{
-     display: block;
-     position: relative;
-     width: 100%;
-     height: 95px;
-     border: none;
-     left: 15px;
-     margin-bottom: 8px;
- }
- #instagram{
+       display: block;
+       position: relative;
+       width: 100%;
+       height: 95px;
+       border: none;
+   }
+   #instagram{
     display: none;
 }
 #ImgPubliMovil{
@@ -185,6 +183,9 @@ a {
     width: 500px;
     height: 100%;
     background-image: url('../img/publiMovil.PNG');
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 #ImgPubli{
@@ -193,18 +194,14 @@ a {
 
 #noticias{
     width: 85%;
-}
-
-#loadig{
-    height: 200px;
-    width: 200px;  
-    margin-top: 60%;
+    left: 50px;
 }
 }
 
-@media screen and (max-width: 600px) {
-    .publi{
-        left: 30px;
+@media screen and (max-width: 640px) {
+
+    .publi {
+        width: 80%;
     }
     #ImgPubliMovil{
         display: block;
@@ -215,4 +212,8 @@ a {
         background-size: 90%;
         background-repeat: no-repeat;
     }
+    #noticias{
+    width: 85%;
+    left: 47px;
+}
 }

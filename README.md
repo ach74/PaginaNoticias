@@ -4,23 +4,23 @@
 
 ### Pagina de noticias hechas por Achraf El Ouakili:
 
-En este proyacto he tenido que realizar una pagina web en la cual tengamos una noticia en una posicion especificada por el cliente y que ademas la pagina web carge noticias de unos archivos Json. Para ello primero hemos tenido que diseñar la pagina web tanto para pantallas de ordenador como para moviles.
+En este proyecto he tenido que realizar una pagina web en la cual tengamos una noticia en una posición especificada por el cliente y que además la pagina web cargué noticias de unos archivos Json. Para ello primero hemos tenido que diseñar la pagina web tanto para pantallas de ordenador como para móviles.
 
 Para empezar he hecho el diseño de la pagina web, el diseño de la pagina web es el siguiente:
 ![Diseño pagina web](https://github.com/ach74/PaginaNoticias/blob/master/img/dise%C3%B1o/dise%C3%B1oPc.jpg "Diseño 01")
 
-La pagina con el menu abierto se deberia de ver algo asi:
-![Diseño pagina web menu abierto](https://github.com/ach74/PaginaNoticias/blob/master/img/dise%C3%B1o/dise%C3%B1oPc2.jpg "Diseño 02")
+La pagina con el menú abierto se debería de ver algo así:
+![Diseño pagina web menú abierto](https://github.com/ach74/PaginaNoticias/blob/master/img/dise%C3%B1o/dise%C3%B1oPc2.jpg "Diseño 02")
 
-Para movil lo he distribuido de la siguiente manera:
+Para móvil lo he distribuido de la siguiente manera:
 ![Diseño pagina web para movil](https://github.com/ach74/PaginaNoticias/blob/master/img/dise%C3%B1o/dise%C3%B1oMovil.jpg "Diseño movil")
 
-### Menu
-Lo primero que hice a la hora de hacer el proyecto fue la barra lateral, ya que hay muchos estilo de menu lateral, prove algunos y al final me quede con el que se activa al pasar por encima. Mediante la la orden ":hover" se activa ademas de dar algun que otro efecto al menu. El resultado final es el siguiente:
+### Menú
+Lo primero que hice a la hora de hacer el proyecto fue la barra lateral, ya que hay muchos estilo de menú lateral, provee algunos y al final me quede con el que se activa al pasar por encima. Mediante la la orden ":hover" se activa además de dar algún que otro efecto al menú. El resultado final es el siguiente:
 
 ![Menu lateral](https://github.com/ach74/PaginaNoticias/blob/master/img/dise%C3%B1o/cap01.png "Menu lateral")
 
-En html pertenece a esta seccion de codigo:
+En html pertenece a esta sección de código:
 
 ```
 <div class="left">
@@ -57,11 +57,11 @@ En html pertenece a esta seccion de codigo:
 	</div>
 ```
 
-Y la parte de codigo con el nombre de class **left** pertenece solo al menu, po lo tanto la parte de codigo con el nombre de class **right** pertenece al resto del body.
+Y la parte de código con el nombre de class **left** pertenece solo al menú, por lo tanto la parte de código con el nombre de class **right** pertenece al resto del body.
 
 ### Corousel
 
-* En el right tenemos al principo de todo un **carousel** que nos muestra las imagenes pasar, hace la funcion de banner. El tiempo que hay entre transicion y transicion esta alterado mediante jQuery
+* En el right tenemos al principio de todo un **carousel** que nos muestra las imágenes pasar, hace la función de banner. El tiempo que hay entre transición y transición esta alterado mediante jQuery
 
 ```
 	$('.carousel').carousel({
@@ -74,15 +74,15 @@ Esta **carousel** es responsive y el tamaño depende de la pantalla en la que se
 ### Publicidad y Redes
 
 * En el lateral derecho tenemos colocado la publicidad, para ello he creado un div donde he metido la **publicidad** y un **widget** de intagram. 
-	* La publicidad es un gif cuadrado, que cuando pasamos a la version movil cambia a un imagen con otro tipo de publicidad rectangular. Ademas de que la posicion cambia. En la version de escritorio esta en un lateral en la version para movil debajo del **Corousel**. A medida que vamos reducion la resolucion la publi se va haciendo mas pequeña.
+	* La publicidad es un gif cuadrado, que cuando pasamos a la versión móvil cambia a un imagen con otro tipo de publicidad rectangular. Ademas de que la posición cambia. En la versión de escritorio esta en un lateral en la versión para móvil debajo del **Corousel**. A medida que vamos reducir la resolución la publicidad se va haciendo mas pequeña.
 
-	* Tambien tenemos un widget de Instagram con las ultmias fotos subidas, para crear este widget he usado una [pagina externa](https://snapwidget.com/) que despues de vincular una cuenta de instagram te proporciona el siguiente codigo:
+	* También tenemos un widget de Instagram con las ultimas fotos subidas, para crear este widget he usado una [pagina externa](https://snapwidget.com/) que después de vincular una cuenta de instagram te proporciona el siguiente código:
 
 	```
 		<iframe src="https://snapwidget.com/embed/549773" class="snapwidget-widget" id="widgetInstagram"></iframe>
 	```
 
-	Luego mediante CSS le he modificado un para de fomatos de estilo y le he añadido un poco de decoracion para que de el pego de pertenecer a instagram. Ademas de que en la version movil este widget no aparece:
+	Luego mediante CSS le he modificado un para de formatos de estilo y le he añadido un poco de decoración para que de el pego de pertenecer a instagram. Ademas de que en la versión móvil este widget no aparece:
 
 	El resultado de la publicidad y el widget:
 
@@ -90,23 +90,24 @@ Esta **carousel** es responsive y el tamaño depende de la pantalla en la que se
 
 ### Noticias
 
- * La distribucion de la pagina web es al principio una noticia grande que ocupa todo el contenedo diponible y debajo pequeñas noticias de tres en tras. Esta ditribucion esta hecha con bootstrap
+ * La distribución de la pagina web es al principio una noticia grande que ocupa todo el contenedor disponible y debajo pequeñas noticias de tres en tras. Esta distribución esta hecha con Bootstrap.
 
- * Cada noticia tiene un boton de informacion donde nos dice quein lo ha publicado y cuando ha sido publicada, ademas de como es catalogada la serie.
+ * Cada noticia tiene un botón de informacion donde nos dice quien lo ha publicado y cuando ha sido publicada, ademas de como es catalogada la serie.
 
- * Todas las noticias tiene un ":hover" que les da una animacion al pasar por encima de ella.
+ * Todas las noticias tiene un ":hover" que les da una animación al pasar por encima de ella.
 
- * Las tres primeras noticias nos lleva a una pagina distinta donde se nos habla de esta de forma indibidual. Esta pagina se abre al clicar o en la foto o el titulo de la noticia.
+ * Las tres primeras noticias nos lleva a una pagina distinta donde se nos habla de esta de forma individual. Esta pagina se abre al pulsar o en la foto o el titulo de la noticia.
 
  	* Estas noticias tiene el mismo aspecto que la pagina principal, pero en vez de tener muchas noticias solo tenemos una con toda la informacion de esta.
 
 ### Cargar mas noticias
 
-* Las quatro primeras noticias estan encritas en el html de la pagina principal, el resto son cargadas desde un Json y añadidas mediante jQuery.
+* Las cuatro primeras noticias están escritas en el html de la pagina principal, el resto son cargadas desde un Json y añadidas mediante jQuery.
 
-* Estas noticias se añaden o bien cuando hacemos **scroll** hacia abajo de la pagina o cuando le damos al boton de "Give me more", ambas usan el mismo metodo de carga solo que cada uno lo acctiva de una forma u otra.
+* Estas noticias se añaden o bien cuando hacemos **scroll** hacia abajo de la pagina o cuando le damos al botón de "Give me more", ambas usan el mismo método de carga solo que cada uno lo activa de una forma u otra.
 
-Codigo:
+Código:
+
 
 ```
 	//Cargar por el scroll
@@ -121,7 +122,7 @@ Codigo:
 	});
 
 ```
-* Las noticias son cargadas con un efecto piano, este efecto lo he realizacon con JQuery:
+* Las noticias son cargadas con un efecto piano, este efecto lo he realizadon con JQuery:
 
 ```
 				//Efecto de carga
@@ -138,7 +139,7 @@ Codigo:
 				demo++;
 ```
 
-* Una vez ya no se pueden cargar mas noticias nos sale un mensaje abajo de la pagina que nos informa de que no hay mas noticias, este mensaje esta ya en el htlm solo que esta inactivado el trozo de codigo que lo habilita es el siguinete:
+* Una vez ya no se pueden cargar mas noticias nos sale un mensaje abajo de la pagina que nos informa de que no hay mas noticias, este mensaje esta ya en el html solo que esta in-activado el trozo de código que lo habilita es el siguiente:
 
 ```
 	} else {
@@ -147,3 +148,15 @@ Codigo:
 	}
 ```
 
+### Añadido
+
+* Al iniciar la pagina se activa una animación que nos sitúa al principio. Es la siguiente sección de código:
+
+```
+	//Animación del Scroll
+	
+	$("html, body").animate({
+		scrollTop: 100
+	}, 2000);
+
+```
