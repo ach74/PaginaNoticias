@@ -10,7 +10,7 @@ $(document).ready(function(){
 	//Animacion del Scroll
 	
 	$("html, body").animate({
-		scrollTop: 300
+		scrollTop: 100
 	}, 2000);
 
 	//Cargar por el scroll
@@ -19,7 +19,7 @@ $(document).ready(function(){
 			cargarNoticias();
 		}
 	});
-	
+	//Cargar por el boton
 	$("#mas").click(function(){
 		cargarNoticias();
 	});
