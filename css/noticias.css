@@ -109,6 +109,15 @@ a {
     margin-top: 15px;
     position: relative;
 }
+
+#widgetInstagram{
+    border:none; 
+    overflow:hidden; 
+    width:100%;
+    background:transparent;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
 .fa-instagram{
     vertical-align: middle;
     font-size: 50px;
