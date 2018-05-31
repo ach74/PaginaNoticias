@@ -167,5 +167,5 @@ Código:
 
 * Al cargar una nueva noticia nos sale un gif de login.
 
-![Publicidad y el widget](https://github.com/ach74/PaginaNoticias/blob/master/img/loagind.gif = 250x250)
+![Publicidad y el widget](https://github.com/ach74/PaginaNoticias/blob/master/img/loagind.gif =250x250)
 
