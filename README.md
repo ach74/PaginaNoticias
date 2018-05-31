@@ -1,6 +1,8 @@
 # Practicas_Bootstrap
 
-## Mi pagina web: https://rawgit.com/ach74/PaginaNoticias/master/index.html
+## Mi pagina web : https://rawgit.com/ach74/PaginaNoticias/master/index.html
+
+## Mi pagina web minificada : https://rawgit.com/ach74/PaginaNoticias/minifyFull/index.html
 
 ### Pagina de noticias hechas por Achraf El Ouakili:
 
