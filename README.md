@@ -22,7 +22,7 @@ Para móvil lo he distribuido de la siguiente manera:
 ### Menú
 Lo primero que hice a la hora de hacer el proyecto fue la barra lateral, ya que hay muchos estilo de menú lateral, provee algunos y al final me quede con el que se activa al pasar por encima. Mediante la la orden ":hover" se activa además de dar algún que otro efecto al menú. El resultado final es el siguiente:
 
-![Menu lateral](https://github.com/ach74/PaginaNoticias/blob/master/img/dise%C3%B1o/cap01.png "Menu lateral")
+![Menu lateral](https://github.com/ach74/PaginaNoticias/blob/master/img/dise%C3%B1o/cap01.PNG "Menu lateral")
 
 En html pertenece a esta sección de código:
 
@@ -90,7 +90,7 @@ Esta **carousel** es responsive y el tamaño depende de la pantalla en la que se
 
 	El resultado de la publicidad y el widget:
 
-![Publicidad y el widget](https://github.com/ach74/PaginaNoticias/blob/master/img/dise%C3%B1o/cap02.png "Publicidad y el widget")	
+![Publicidad y el widget](https://github.com/ach74/PaginaNoticias/blob/master/img/dise%C3%B1o/cap02.PNG "Publicidad y el widget")	
 
 ### Noticias
 
